@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="signup" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #636e72;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse.work.controller.SignUpController">
+   <children>
+      <TextField fx:id="txtusername" layoutX="185.0" layoutY="131.0" prefHeight="37.0" prefWidth="242.0" promptText="username" style="-fx-background-radius: 45;" />
+      <Button fx:id="btnsignup" layoutX="249.0" layoutY="285.0" mnemonicParsing="false" onAction="#action" prefHeight="29.0" prefWidth="113.0" style="-fx-background-radius: 45;" text="sign up" />
+      <TextField fx:id="txtpassword" layoutX="185.0" layoutY="200.0" prefHeight="37.0" prefWidth="242.0" promptText="password" style="-fx-background-radius: 45;" />
+      <Label contentDisplay="CENTER" layoutX="232.0" layoutY="60.0" prefHeight="48.0" prefWidth="161.0" text="SIGN UP">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
