@@ -27,16 +27,6 @@ public class SignUpController {
     @FXML
     private TextField txtusername;
 
-    /*public void check(String username, String password) throws IOException {
-        String u = txtusername.getText();
-        String p = txtpassword.getText();
-
-        if (username.equals(u) && password.equals(p)) {
-
-
-        }
-    }*/
-
 
    @FXML
     void action(ActionEvent event) throws IOException {
